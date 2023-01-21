@@ -37,5 +37,11 @@ export default defineNuxtConfig({
       name: 'kCurrency',
       description: 'Currency conversion application',
     },
+    manifest: {
+      name: 'kCurrency',
+      short_name: 'kC',
+      description: 'Currency conversion application',
+      background_color: '#2b303b',
+    },
   },
 })
