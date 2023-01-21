@@ -31,4 +31,11 @@ export default defineNuxtConfig({
   piniaPersistedstate: {
     storage: 'localStorage'
   },
+  pwa: {
+    meta: {
+      author: 'Kart Noire',
+      name: 'kCurrency',
+      description: 'Currency conversion application',
+    },
+  },
 })
